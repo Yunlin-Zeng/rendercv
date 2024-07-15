@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  14 JUL 2024 11:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  14 JUL 2024 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -641,9 +641,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 209.
+(Font)              <9> on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 209.
+(Font)              <6> on input line 200.
  [1
 
 {/Users/yunlin/anaconda3/envs/work/lib/python3.10/site-packages/rendercv/tinyte
@@ -651,15 +651,12 @@ x-release/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/yunlin/a
 naconda3/envs/work/lib/python3.10/site-packages/rendercv/tinytex-release/TinyTe
 X/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/yunlin/anaconda3/envs/work/lib
 /python3.10/site-packages/rendercv/tinytex-release/TinyTeX/texmf-dist/fonts/enc
-/dvips/lm/lm-mathsy.enc}{/Users/yunlin/anaconda3/envs/work/lib/python3.10/site-
-packages/rendercv/tinytex-release/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.e
-nc}{/Users/yunlin/anaconda3/envs/work/lib/python3.10/site-packages/rendercv/tin
-ytex-release/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+/dvips/lm/lm-mathsy.enc}]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.379 \end{document}
+l.340 \end{document}
                      [2]
 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -670,13 +667,13 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15060 strings out of 476002
- 269863 string characters out of 5788363
- 1957496 words of memory out of 5000000
- 36985 multiletter control sequences out of 15000+600000
+ 15054 strings out of 476002
+ 269811 string characters out of 5788363
+ 1953496 words of memory out of 5000000
+ 36983 multiletter control sequences out of 15000+600000
  597025 words of font info for 66 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,7n,79p,425b,507s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,429b,507s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/yunlin/anaconda3/envs/work/lib/python3.10/site-packages/rendercv/tiny
 tex-release/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></Users/
 yunlin/anaconda3/envs/work/lib/python3.10/site-packages/rendercv/tinytex-releas
@@ -686,18 +683,13 @@ aconda3/envs/work/lib/python3.10/site-packages/rendercv/tinytex-release/TinyTeX
 vs/work/lib/python3.10/site-packages/rendercv/tinytex-release/TinyTeX/texmf-dis
 t/fonts/type1/bitstrea/charter/bchri8a.pfb></Users/yunlin/anaconda3/envs/work/l
 ib/python3.10/site-packages/rendercv/tinytex-release/TinyTeX/texmf-dist/fonts/t
-ype1/public/lm/lmmi10.pfb></Users/yunlin/anaconda3/envs/work/lib/python3.10/sit
+ype1/public/lm/lmsy10.pfb></Users/yunlin/anaconda3/envs/work/lib/python3.10/sit
 e-packages/rendercv/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lm
-r10.pfb></Users/yunlin/anaconda3/envs/work/lib/python3.10/site-packages/renderc
-v/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/yun
-lin/anaconda3/envs/work/lib/python3.10/site-packages/rendercv/tinytex-release/T
-inyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/yunlin/anaconda3/env
-s/work/lib/python3.10/site-packages/rendercv/tinytex-release/TinyTeX/texmf-dist
-/fonts/type1/public/lm/lmsy9.pfb>
-Output written on Yunlin_Zeng_CV.pdf (2 pages, 109236 bytes).
+sy9.pfb>
+Output written on Yunlin_Zeng_CV.pdf (2 pages, 70913 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

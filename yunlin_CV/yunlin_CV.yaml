@@ -4,19 +4,136 @@ cv:
   email: yunlin_zeng@outlook.com
   phone: tel:(+1) 8052806729
     #  website: https://yourwebsite.com/
-  social_networks:
-    - network: LinkedIn
-      username: yourusername
-    - network: GitHub
-      username: Yunlin-Zeng
+    # social_networks:
+    #   - network: LinkedIn
+    #     username: yourusername
+    #   - network: GitHub
+    #     username: Yunlin-Zeng
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://github.com/sinaatalay/rendercv) is
-        a LaTeX-based CV/resume framework. It allows you to create
-        a high-quality CV or resume as a PDF file from a YAML
-        file, with **full Markdown syntax support** and **complete
-        control over the LaTeX code**.'
-      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
+    education:
+      - institution: Georgia Institute of Technology
+        area: Physics
+        degree: Ph.D.
+        start_date: 2020-08
+        end_date: 2025-08
+      - institution: University of California, Santa Barbara
+        area: Physics
+        degree: B.S.
+        start_date: 2015-09
+        end_date: 2019-06
+        highlights:
+          - "GPA: 3.90/4.00. Graduation with the highest honors; Highest academic honors for upper division physics courses; Dean's Honors x 6"
+    Research Projects:
+      - company: School of Computational Science and Engineering, Georgia Tech
+        position: Graduate Researcher in Full-Waveform Variational Inference
+        location: Atlanta, GA
+        start_date: 2024-01
+        end_date: 2024-07
+        highlights:
+          - Engineered an advanced variational inference framework with normalizing flows to efficiently solve the seismic inverse problem, enhancing the subsurface seismic imaging.
+          - Implemented robust uncertainty quantification methods to assess and interpret the stability and accuracy of seismic imaging predictions.
+          - Developed stochastic resampling and data augmentation techniques, and improve the generalization capabilities of initial migration velocity models in seismic analysis.
+      - company: Physics Department, Georgia Tech
+        position: Graduate Researcher in Orbital Dynamics
+        location: Atlanta, GA
+        start_date: 2020-01
+        end_date: 2021-12
+        highlights:
+          - Applied Bayesian inference and parallel-tempering MCMC algorithms to constrain the orbital parameters of the Gliese 86 binary system, integrating diverse data types such as radial velocity and high-resolution imaging.
+          - Conducted simulations of stellar evolution within binary systems, reconstructed historical orbital dynamics, and contributed to theories of planet formation in truncated stellar disks.
+          - Investigated disk-satellite interactions within circumstellar disks to provide insights into planet formation dynamics under extreme conditions.
+      - company: Physics Department, UC Santa Barbara
+        position: Software Developer and Research Analyst
+        location: Santa Barbara, CA
+        start_date: 2019-06
+        end_date: 2019-12
+        highlights: 
+          - Developed 'orvara', an open-source Python software for Bayesian analysis of Keplerian orbits.
+          - Enhanced the computational efficiency by 5-10x over traditional methods and used low-level memory management to avoid python overheads.
+          - Applied MCMC methodologies to robustly sample posterior distributions of stellar and planetary orbits, ensuring high accuracy and reliability of model predictions.
+          - Authored several utility functions and extended the software’s capabilities to infer and visualize the results, broadening its applicability and user base.
+      - company: School of Physics, Georgia Tech
+        position: Graduate Researcher in Computational Chemistry
+        location: Atlanta, GA
+        start_date: 2021-06
+        end_date: 2023-06
+        highlights: 
+          - Led the design and implementation of a graphical user interface for the Force Field Toolkit (ffTK), streamlining the parameterization of small molecules based on quantum mechanical calculations.
+          - Integrated Psi4, an open-source quantum mechanics package, with ffTK, facilitating access to advanced computational tools for the scientific community.
+          - Enhanced the toolkit's functionality, including new command integrations and expanded input/output options, to support a wider range of quantum chemical computations.
+
+            # publications:
+            #   - title: 3D Finite Element Analysis of No-Insulation Coils
+            #     authors:
+            #       - Frodo Baggins
+            #       - '***John Doe***'
+            #       - Samwise Gamgee
+            #     doi: 10.1109/TASC.2023.3340648
+            #     date: 2004-01
+
+
+    selected publications:
+      - title: "*Enhancing Full-Waveform Variational Inference through Stochastic Resampling and Data Augmentation*"
+        authors:
+          - Yunlin Zeng
+          - Rafael Orozco
+          - Ziyi Yin
+          - Felix J. Herrmann
+        doi: ""
+        date: 2024-01
+      # - title: "*The Gliese 86 Binary System: A Warm Jupiter Formed in a Disk Truncated at {\\ensuremath{\\approx}}2 au*"
+      #   authors:
+      #     - Yunlin Zeng
+      #     - Timothy D. Brandt
+      #     - Gongjie Li
+      #     - Trent J. Dupuy
+      #     - Yiting Li
+      #     - G. Mirek Brandt
+      #     - Jay Farihi
+      #     - Jonathan Horner
+      #     - Robert A. Wittenmyer
+      #     - R. Paul Butler
+      #     - Christopher G. Tinney
+      #     - Bradley D. Carter
+      #     - Duncan J. Wright
+      #     - Hugh R. A. Jones
+      #     - Simon J. O'Toole
+      #   doi: 10.3847/1538-3881/ac8ff7
+      #   date: 2022-01
+      # - title: "*orvara: An Efficient Code to Fit Orbits Using Radial Velocity, Absolute, and/or Relative Astrometry*"
+      #   authors:
+      #     - Timothy D. Brandt
+      #     - Trent J. Dupuy
+      #     - Yiting Li
+      #     - G. Mirek Brandt
+      #     - Yunlin Zeng
+      #     - Daniel Michalik
+      #     - Daniella C. Bardalez Gagliuffi
+      #     - Virginia Raposo-Pulido
+      #   doi: 10.3847/1538-3881/ac042e
+      #   date: 2021-01
+      # - title: "*Broadening access to small-molecule parameterization with the force field toolkit*"
+      #   authors:
+      #     - Yunlin Zeng
+      #     - Anna Pavlova
+      #     - Philip M. Nelson
+      #     - Zachary L. Glick
+      #     - Lan Yang
+      #     - Yui Tik Pang
+      #     - Mariano Spivak
+      #     - Giuseppe Licari
+      #     - Emad Tajkhorshid
+      #     - C. David Sherrill
+      #     - James C. Gumbart
+      #   doi: 10.1063/5.0196848
+      #   date: 2024-01
+
+
+    technologies:
+      - label: Languages
+        details: Python, Julia, Cython, TCL, Fortran, Mathematica, MATLAB
+      - label: Technologies
+        details: Applied Machine Learning (Scikit-learn), Deep learning (PyTorch, TensorFlow), Signal Processing   
     quick_guide:
       - bullet: Each section title is arbitrary and each section
           contains a list of entries.
@@ -27,82 +144,6 @@ cv:
           start writing your section!
       - bullet: '[Here](https://docs.rendercv.com/user_guide/),
           you can find a comprehensive user guide for RenderCV.'
-    education:
-      - institution: University of California, Santa Barbara
-        area: Physics
-        degree: BS
-        start_date: 2015-09
-        end_date: 2019-06
-        highlights:
-          - 'GPA: 3.90/4.00 ([Transcript](https://example.com))'
-          - '**** Computer Architecture, Comparison
-            of Learning Algorithms, Computational Theory'
-    experience:
-      - company: Apple
-        position: Software Engineer
-        location: Cupertino, CA
-        start_date: 2005-06
-        end_date: 2007-08
-        highlights:
-          - Reduced time to render user buddy lists by 75% by
-            implementing a prediction algorithm
-          - Integrated iChat with Spotlight Search by creating
-            a tool to extract metadata from saved chat transcripts
-            and provide metadata to a system-wide search database
-          - Redesigned chat file format and implemented backward
-            compatibility for search
-      - company: Microsoft
-        position: Software Engineer Intern
-        location: Redmond, WA
-        start_date: 2003-06
-        end_date: 2003-08
-        highlights:
-          - Designed a UI for the VS open file switcher (Ctrl-Tab)
-            and extended it to tool windows
-          - Created a service to provide gradient across VS and
-            VS add-ins, optimizing its performance via caching
-          - Built an app to compute the similarity of all methods
-            in a codebase, reducing the time from $\mathcal{O}(n^2)$
-            to $\mathcal{O}(n \log n)$
-          - Created a test case generation tool that creates random
-            XML docs from XML Schema
-          - Automated the extraction and processing of large datasets
-            from legacy systems using SQL and Perl scripts
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        date: 2004-01
-    projects:
-      - name: Multi-User Drawing Tool
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-        highlights:
-          - Developed an electronic classroom where multiple users
-            can simultaneously view and draw on a "chalkboard"
-            with each person's edits synchronized
-          - 'Tools Used: C++, MFC'
-      - name: Synchronized Desktop Calendar
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-        highlights:
-          - Developed a desktop calendar with globally shared
-            and synchronized calendars, allowing users to schedule
-            meetings with other users
-          - 'Tools Used: C#, .NET, SQL, XML'
-      - name: Custom Operating System
-        date: 2002
-        highlights:
-          - Built a UNIX-style OS with a scheduler, file system,
-            text editor, and calculator
-          - 'Tools Used: C'
-    technologies:
-      - label: Languages
-        details: C++, C, Java, Objective-C, C#, SQL, JavaScript
-      - label: Technologies
-        details: .NET, Microsoft SQL Server, XCode, Interface
-          Builder
 design:
   theme: engineeringresumes
   font: Charter

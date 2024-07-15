@@ -1,0 +1,93 @@
+publications:
+- title: '*Enhancing Full-Waveform Variational Inference through Stochastic Resampling
+    and Data Augmentation*'
+  authors:
+  - Yunlin Zeng
+  - Rafael Orozco
+  - Ziyi Yin
+  - Felix J. Herrmann
+  doi: ''
+  date: 2024-01
+- title: '*{The Gliese 86 Binary System: A Warm Jupiter Formed in a Disk Truncated
+    at {\ensuremath{\approx}}2 au}*'
+  authors:
+  - '{Zeng}'
+  - Yunlin
+  - '{Brandt}'
+  - Timothy D.
+  - '{Li}'
+  - Gongjie
+  - '{Dupuy}'
+  - Trent J.
+  - '{Li}'
+  - Yiting
+  - '{Brandt}'
+  - G. Mirek
+  - '{Farihi}'
+  - Jay
+  - '{Horner}'
+  - Jonathan
+  - '{Wittenmyer}'
+  - Robert A.
+  - '{Butler}'
+  - R. Paul.
+  - '{Tinney}'
+  - Christopher G.
+  - '{Carter}'
+  - Bradley D.
+  - '{Wright}'
+  - Duncan J.
+  - '{Jones}'
+  - Hugh R.~A.
+  - '{O''Toole}'
+  - Simon J.
+  doi: 10.3847/1538-3881/ac8ff7
+  date: 2022-01
+- title: '*orvara: An Efficient Code to Fit Orbits Using Radial Velocity, Absolute,
+    and/or Relative Astrometry*'
+  authors:
+  - Brandt
+  - Timothy D.
+  - Dupuy
+  - Trent J.
+  - Li
+  - Yiting
+  - Brandt
+  - G. Mirek
+  - Zeng
+  - Yunlin
+  - Michalik
+  - Daniel
+  - Bardalez Gagliuffi
+  - Daniella C.
+  - Raposo-Pulido
+  - Virginia
+  doi: 10.3847/1538-3881/ac042e
+  date: 2021-01
+- title: '*{Broadening access to small-molecule parameterization with the force field
+    toolkit}*'
+  authors:
+  - Zeng
+  - Yunlin
+  - Pavlova
+  - Anna
+  - Nelson
+  - Philip M.
+  - Glick
+  - Zachary L.
+  - Yang
+  - Lan
+  - Pang
+  - Yui Tik
+  - Spivak
+  - Mariano
+  - Licari
+  - Giuseppe
+  - Tajkhorshid
+  - Emad
+  - Sherrill
+  - C. David
+  - Gumbart
+  - James C.
+  doi: 10.1063/5.0196848
+  date: 2024-01
